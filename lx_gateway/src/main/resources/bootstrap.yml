@@ -1,6 +1,6 @@
 spring:
   application:
-    name: lx-eureka
+    name: lx-gateway
   cloud:
     config:
       label: master

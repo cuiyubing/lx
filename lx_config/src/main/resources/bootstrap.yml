@@ -6,4 +6,4 @@ spring:
       server:
         git:
           search-paths: lx_repo
-          uri:
+          uri: https://github.com/cuiyubing/lx.git
