@@ -1,0 +1,16 @@
+server:
+  port: 10010
+zuul:
+  routes:
+    lx-product:
+      serviceId: lx-product
+      path: /pro_server/**
+  ignored-services: '*'
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+  instance:
+    hostname: localhost
