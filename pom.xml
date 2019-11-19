@@ -8,6 +8,8 @@
         <module>lx_eureka</module>
         <module>lx_product</module>
         <module>lx_gateway</module>
+        <module>lx_server</module>
+        <module>lx_zuul</module>
     </modules>
 
     <parent>

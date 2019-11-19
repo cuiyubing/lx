@@ -10,6 +10,8 @@
         <module name="lx_eureka" />
         <module name="lx_gateway" />
         <module name="lx_product" />
+        <module name="lx_server" />
+        <module name="lx_zuul" />
       </profile>
     </annotationProcessing>
   </component>
