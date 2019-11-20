@@ -8,3 +8,14 @@ eureka:
       defaultZone: http://localhost:10086/eureka
   instance:
     hostname: localhost
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: product_route
+          uri: lb://lx-product
+          predicates:
+           - Path=/sell/buyer/**
+          filters:
+           - StripPrefix=2
+          order: 0
