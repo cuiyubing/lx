@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 
 @Data
 @Entity
-@Table(name = "hetong")
+@Table(name = "t_hetong")
 public class Hetong implements Serializable {
     @Id
     private String hetongId;//合同编号

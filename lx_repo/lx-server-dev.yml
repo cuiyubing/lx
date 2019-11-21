@@ -1,9 +1,9 @@
 server:
-  port: 9899
+  port: 9098
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:10086/eureka
-    instance:
-      hostname: localhost
+  instance:
+    hostname: localhost
 

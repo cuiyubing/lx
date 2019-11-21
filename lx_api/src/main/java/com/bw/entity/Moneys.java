@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Data
 @Entity
-@Table(name = "moneys")
+@Table(name = "t_moneys")
 public class Moneys implements Serializable {
     @Id
     private String returnCode;//回款编号
