@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lx_api" />
         <module name="lx_config" />
         <module name="lx_eureka" />
         <module name="lx_gateway" />

@@ -10,6 +10,7 @@
         <module>lx_gateway</module>
         <module>lx_server</module>
         <module>lx_zuul</module>
+        <module>lx_api</module>
     </modules>
 
     <parent>
