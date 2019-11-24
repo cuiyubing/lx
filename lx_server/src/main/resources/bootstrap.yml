@@ -6,6 +6,15 @@ spring:
       label: master
       profile: dev
       uri: http://localhost:7001
+  resources:
+    static-locations: file:${file.path}
+  servlet:
+    multipart:
+      max-request-size: 10240000
+      max-file-size: 10240000
+file:
+  path: F:/pic
+  domain: http://127.0.0.1:9098/
 
 
 

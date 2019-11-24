@@ -15,10 +15,10 @@ public class Moneys implements Serializable {
     @Id
     private String returnCode;//回款编号
     @ManyToOne
-    @JoinColumn(name = "hetong_id",referencedColumnName = "hetong_id")
+    @JoinColumn(name = "hetong_id")
     private Hetong hetong;//合同编号
-
     private BigDecimal returnMoney;//回款金额
+    private String url;//图片
     private String returnName;//回款人
     private String coment;//备注
     private BigDecimal yue;//余款
