@@ -10,15 +10,7 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
-  resources:
-    static-locations: file:${file.path}
-    servlet:
-      multipart:
-        max-request-size: 10240000
-        max-file-size: 10240000
-  file:
-    path: F:/pic
-    domain: http://127.0.0.1:9099/
+
   jackson:
     date-format: yyyy-MM-dd
     time-zone: GMT+8
